@@ -1,0 +1,12 @@
+GET http://localhost:3000/api/diaries/1 HTTP/1.1
+###
+POST http://localhost:3000/api/diaries HTTP/1.1
+content-type: application/json
+
+{
+  "date":"2019-01-01",	
+  "weather": "sunny",
+  "visibility": "good",
+  "comment": "Awesome day. I'm so happy"
+}
+###
