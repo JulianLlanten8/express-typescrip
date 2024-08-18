@@ -1,7 +1,7 @@
-import express from 'express'
+import express  from 'express'
 import diaryRouter from './routes/diaries'
 
-const app = express()
+const app = express();
 
 app.use(express.json()) // midleware que transforma la request.boddy en json
 
